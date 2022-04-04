@@ -1,0 +1,316 @@
+/************************** 
+*  Import style
+***************************/
+/************************** 
+* Main Color
+***************************/
+/* 1-  Color */
+/* 2-  Background */
+/* 3-  Border */
+/* Alert */
+/************************** 
+* Dark Home Page one
+***************************/
+/************************** 
+* Light Home Page one
+***************************/
+/************************** 
+* List Color
+***************************/
+/************************** 
+* Border Resume
+***************************/
+/************************** 
+* Main Fonts
+***************************/
+/************************** 
+* Float fixing
+***************************/
+/************************** 
+* Text Align
+***************************/
+/************************** 
+* Font-weight
+***************************/
+/************************** 
+* Transition
+***************************/
+.transition {
+  -webkit-transition: all .5s ease-in-out !important;
+  -o-transition: all .5s ease-in-out !important;
+  transition: all .5s ease-in-out !important; }
+
+/************************** 
+* Box Shadow
+***************************/
+.box-shadownone {
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+
+/************************** 
+* Box Sizing
+***************************/
+.box-sizing {
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/************************** 
+* Transition Transforme
+***************************/
+.transTransforme {
+  -webkit-transition: transform 330ms ease-out;
+  -moz-transition: transform 330ms ease-out;
+  -o-transition: transform 330ms ease-out;
+  transition: transform 330ms ease-out; }
+
+/************************** 
+* Media Queries
+***************************/
+/************************** 
+* General Style
+***************************/
+body {
+  background-color: #191a1c; }
+
+.fixblok {
+  background: #1d1e20 !important;
+  /* Deleted after class */ }
+
+.draw {
+  border: 1px solid rgba(255, 255, 255, 0.1) !important; }
+
+.brd {
+  border-right: 1px solid rgba(255, 255, 255, 0.1); }
+
+.form-control {
+  border-color: rgba(255, 255, 255, 0.1); }
+
+.top-link {
+  border: 1px solid rgba(255, 255, 255, 0.1); }
+
+.br-lr {
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+  border-right: 1px solid rgba(255, 255, 255, 0.1); }
+
+.separator {
+  color: #9da1a5; }
+
+.read-more {
+  color: #9da1a5; }
+
+.maintitle {
+  color: #ffffff; }
+
+/************************** 
+* Full Header
+***************************/
+#header:before {
+  background: #191a1c; }
+#header .head-info .header-content span {
+  color: #9da1a5; }
+#header .head-info .header-content .subtitle::before {
+  background: rgba(255, 255, 255, 0.1); }
+#header .head-info .header-content span.ville {
+  color: #ffffff; }
+#header .head-info .header-content .textfull {
+  color: transparent;
+  -webkit-text-stroke: 1px #ffffff; }
+#header .head-info .header-content .location .listlocaion li:before {
+  background: rgba(255, 255, 255, 0.1); }
+
+/************************** 
+* Navbar Top
+***************************/
+@media (max-width: 991px) {
+  .navbar-wrapper .container .fullcontainer {
+    background: transparent !important; } }
+.navbar-wrapper .navfixed.scrolled {
+  background: #1d1e20; }
+.navbar-wrapper .mainmenunav .cd-primary-nav {
+  background-image: url(../../../images/bg-paterns.png);
+  background-color: #191a1c; }
+
+.nav-styletwo.scrolled {
+  background: #1d1e20; }
+
+.logo-dark {
+  display: none; }
+
+.dl-side-content .logo {
+  background-color: #191a1c; }
+
+/************************** 
+* Sidebar Menu
+***************************/
+.dl-fixed-sidebar {
+  background-color: #1d1e20 !important; }
+  .dl-fixed-sidebar .dl-menu-fixed ul li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important; }
+    .dl-fixed-sidebar .dl-menu-fixed ul li a {
+      color: #9da1a5; }
+  .dl-fixed-sidebar .line {
+    background: rgba(255, 255, 255, 0.1) !important; }
+
+/************************** 
+* About Us
+***************************/
+#about .about-blok .aboutinfo .about-img {
+  border: 1px solid rgba(255, 255, 255, 0.1); }
+  #about .about-blok .aboutinfo .about-img:after {
+    /*  content: '';
+    position: absolute;
+    bottom: 17px;
+    left: 30px;
+    width: 60%;
+    height: 5px;
+    z-index: 2; */ }
+#about .about-blok .aboutinfo .about-descr .title {
+  color: #ffffff; }
+#about .about-blok .aboutinfo .about-descr .fa {
+  color: #9da1a5; }
+#about .skills-bar-container li .progressbar-title {
+  color: #ffffff; }
+  #about .skills-bar-container li .progressbar-title h3 {
+    color: #9da1a5; }
+  #about .skills-bar-container li .progressbar-title .percent {
+    color: #9da1a5; }
+#about .skills-bar-container li .bar-container {
+  background: #555555; }
+#about .hvr-shutter-in-horizontal {
+  background: transparent;
+  color: #9da1a5; }
+  #about .hvr-shutter-in-horizontal:before {
+    background: transparent !important; }
+
+/************************** 
+* services
+***************************/
+#services .cont-services {
+  background: none; }
+  #services .cont-services .servfix .services-block:hover {
+    background: transparent !important; }
+#services .services-item:first-of-type .services-block {
+  background: #1a1a1a; }
+#services .services-item:nth-of-type(2) .services-block {
+  background: #222222;
+  margin-top: 20px; }
+#services .services-item:last-of-type .services-block {
+  background: #1a1a1a; }
+
+/************************** 
+* Counetr 
+***************************/
+.counter .fullcounter {
+  border: 25px solid #1d1e20;
+  background-color: #191a1c; }
+  .counter .fullcounter h3 span {
+    color: #9da1a5; }
+
+.icons-fonts {
+  color: #ffffff; }
+
+/************************** 
+* Portfolio
+***************************/
+#portfolio .portfolio-item {
+  background: #191a1c; }
+  #portfolio .portfolio-item .portfolio-thumbnail .overlay {
+    background: rgba(29, 30, 32, 0.3); }
+    #portfolio .portfolio-item .portfolio-thumbnail .overlay .content-port .fa {
+      color: #ffffff;
+      background: rgba(29, 30, 32, 0.5); }
+  #portfolio .portfolio-item .portfolio-thumbnail .botom-thumbnail {
+    /*     background: transparent !important; */ }
+    #portfolio .portfolio-item .portfolio-thumbnail .botom-thumbnail p {
+      color: #9da1a5; }
+
+/************************** 
+* resume
+***************************/
+#resume .resume-item:first-child .resume-info {
+  background: #1a1a1a; }
+#resume .resume-item:nth-child(02) .resume-info {
+  background: #222222;
+  border-top: 3px solid #ffdb66 !important;
+  margin-top: 20px; }
+  #resume .resume-item:nth-child(02) .resume-info .res-line {
+    background: #ffdb66; }
+#resume .resume-item:last-child .resume-info {
+  border-top: 3px solid #0cc7dd !important;
+  background: #1a1a1a; }
+  #resume .resume-item:last-child .resume-info .res-line {
+    background: #0cc7dd; }
+
+/************************** 
+* Team
+***************************/
+.team .teamiteam .imgteam .socials-media ul li {
+  /*   background: $bgone-one; */
+  background: #1a1a1a; }
+  .team .teamiteam .imgteam .socials-media ul li .fa {
+    color: #ffffff; }
+.team .teamiteam .btmteam .separator {
+  color: #9da1a5; }
+.team .teamiteam-iteam:first-of-type .teamiteam {
+  background: #1a1a1a; }
+.team .teamiteam-iteam:nth-of-type(2) .teamiteam {
+  background: #222222;
+  margin-top: 20px; }
+.team .teamiteam-iteam:last-of-type .teamiteam {
+  background: #1a1a1a; }
+
+/************************** 
+* Journal
+***************************/
+#journal .journal-item:first-of-type .journal-info {
+  background: #1a1a1a; }
+  #journal .journal-item:first-of-type .journal-info::after {
+    background-color: #f25850; }
+#journal .journal-item:nth-of-type(02) .journal-info {
+  background: #222222;
+  margin-top: 20px; }
+  #journal .journal-item:nth-of-type(02) .journal-info::after {
+    background-color: #ffdb66; }
+#journal .journal-item:last-of-type .journal-info {
+  background: #1a1a1a; }
+  #journal .journal-item:last-of-type .journal-info::after {
+    background-color: #0cc7dd; }
+
+/************************** 
+* Contact
+***************************/
+.infcontactfull {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: #191a1c; }
+
+#contact .contact-block span {
+  color: #9da1a5; }
+#contact .contact-form .form-inline .form-group {
+  background-color: #191a1c; }
+#contact .contact-form .form-inline .btn i {
+  color: #ffffff; }
+#contact .socials-media ul li {
+  /*  background: $bgone-one; */
+  background: #222222; }
+  #contact .socials-media ul li .fa {
+    color: #ffffff; }
+  #contact .socials-media ul li:hover .fa {
+    color: #ffffff; }
+
+/*  */
+/************************** 
+* Header Follow 
+***************************/
+.header-follow p:after {
+  background-color: rgba(255, 255, 255, 0.1); }
+
+/************************** 
+* Footer
+***************************/
+#footer {
+  background: #1d1e20; }
+
+/*# sourceMappingURL=default_bg.css.map */
