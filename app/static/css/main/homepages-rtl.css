@@ -1,0 +1,216 @@
+/************************** 
+* Import style
+***************************/
+/************************** 
+* Main Color
+***************************/
+/* 1-  Color */
+/* 2-  Background */
+/* 3-  Border */
+/* Alert */
+/************************** 
+* Dark Home Page one
+***************************/
+/************************** 
+* Light Home Page one
+***************************/
+/************************** 
+* List Color
+***************************/
+/************************** 
+* Border Resume
+***************************/
+/************************** 
+* Main Fonts
+***************************/
+/************************** 
+* Float fixing
+***************************/
+/************************** 
+* Text Align
+***************************/
+/************************** 
+* Font-weight
+***************************/
+/************************** 
+* Transition
+***************************/
+.transition {
+  -webkit-transition: all .5s ease-in-out !important;
+  -o-transition: all .5s ease-in-out !important;
+  transition: all .5s ease-in-out !important; }
+
+/************************** 
+* Box Shadow
+***************************/
+.box-shadownone {
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+
+/************************** 
+* Box Sizing
+***************************/
+.box-sizing {
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/************************** 
+* Transition Transforme
+***************************/
+.transTransforme {
+  -webkit-transition: transform 330ms ease-out;
+  -moz-transition: transform 330ms ease-out;
+  -o-transition: transform 330ms ease-out;
+  transition: transform 330ms ease-out; }
+
+/************************** 
+* Media Queries
+***************************/
+/************************** 
+* Float fixing
+***************************/
+/************************** 
+* Text Align
+***************************/
+/************************** 
+* General styling
+***************************/
+body {
+  text-align: right; }
+
+ul.list-unstyled {
+  padding-left: 0;
+  padding-right: 0; }
+
+.section-title {
+  text-align: right !important; }
+  .section-title h2 {
+    color: #9da1a5; }
+
+.text-left {
+  text-align: right !important; }
+
+.brd {
+  border-right: none;
+  border-left: 1px solid rgba(255, 255, 255, 0.1); }
+
+/************************** 
+*  Main Navbar
+***************************/
+.navbar-wrapper .navfixed .container .fullcontainer .row .col-md-12 .iconfix .cd-nav-trigger {
+  text-align: center;
+  right: auto;
+  left: 0; }
+.navbar-wrapper .mainmenunav .navbar {
+  padding: 0; }
+  .navbar-wrapper .mainmenunav .navbar .navbar-collapse li {
+    text-align: right; }
+    .navbar-wrapper .mainmenunav .navbar .navbar-collapse li .nav-link {
+      padding-left: 0px;
+      padding-right: 33px; }
+
+/************************** 
+*  Navbar Information
+***************************/
+.navinfo .navfixinfo {
+  text-align: left; }
+
+/************************** 
+* Header 
+***************************/
+#header .head-info .header-content {
+  text-align: right; }
+  #header .head-info .header-content .subtitle:before {
+    margin-right: 0px;
+    margin-left: 10px; }
+  #header .head-info .header-content .location .listlocaion li {
+    float: right; }
+    #header .head-info .header-content .location .listlocaion li::before {
+      margin-left: 0px;
+      margin-right: -20px; }
+
+/************************** 
+* About Us
+***************************/
+#about .about-blok .aboutinfo .about-descr .separator {
+  padding-right: 0;
+  padding-left: 50px; }
+#about .skills-bar-container {
+  text-align: right;
+  padding-right: 0; }
+  #about .skills-bar-container li .progressbar-title .percent {
+    float: left; }
+
+/************************** 
+* Portfolio
+***************************/
+#portfolio .allprojecrt {
+  text-align: left; }
+  @media (max-width: 767px) {
+    #portfolio .allprojecrt {
+      text-align: right; } }
+  @media (max-width: 767px) {
+    #portfolio .allprojecrt {
+      text-align: left; } }
+
+/************************** 
+* Team
+***************************/
+.team .teamiteam {
+  cursor: pointer; }
+  .team .teamiteam .imgteam .socials-media ul li {
+    float: right; }
+
+/************************** 
+* journal
+***************************/
+#journal .journal-info figure::before {
+  background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 100%);
+  background: linear-gradient(to left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 100%); }
+
+/************************** 
+* 13. Contact
+***************************/
+#contact .contact-form {
+  padding-left: 0px;
+  padding-right: 80px; }
+  @media (max-width: 991px) {
+    #contact .contact-form {
+      padding-right: 0px; } }
+#contact .socials-media ul li {
+  float: right; }
+  #contact .socials-media ul li .fa {
+    font-size: 16px; }
+
+/************************** 
+* Header Follow
+***************************/
+.header-follow ul li {
+  text-align: center; }
+.header-follow p {
+  left: 0;
+  right: -24px; }
+
+/************************** 
+* Footer
+***************************/
+#footer .copyright {
+  text-align: center; }
+  @media (max-width: 767px) {
+    #footer .copyright {
+      text-align: center; } }
+#footer .news .form-inline span {
+  margin-right: 0;
+  margin-left: 20px; }
+#footer .news .form-inline .form-group .form-control {
+  text-align: right; }
+#footer .news .form-inline .form-group .submit {
+  right: auto;
+  left: 0;
+  padding-right: 0;
+  padding-left: 20px; }
+
+/*# sourceMappingURL=homepages-rtl.css.map */
