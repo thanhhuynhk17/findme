@@ -9,7 +9,7 @@ def index():
         ip = request.environ['REMOTE_ADDR']
     else:
         ip = request.environ['HTTP_X_FORWARDED_FOR'] # if behind a proxy
-    return render_template('public/index.html', ip=ip.split(';')[0])
+    return render_template('public/index.html', ip=ip.split(':')[0])
 
 @app.route("/card/<name>", methods=['GET'])
 def profile(name=None):
