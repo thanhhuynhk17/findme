@@ -5,7 +5,10 @@ from flask import request
 
 @app.route("/", methods=["GET"])
 def index():
-    ip2 = request.environ.get('HTTP_X_REAL_IP', request.remote_addr)
+    if request.environ.get('HTTP_X_FORWARDED_FOR') is None:
+        ip2 = request.environ['REMOTE_ADDR']
+    else:
+        ip2 = request.environ['HTTP_X_FORWARDED_FOR'] # if behind a proxy
     return render_template('public/index.html', ip=request.environ['REMOTE_ADDR'], ip2=ip2)
 
 @app.route("/card/<name>", methods=['GET'])
