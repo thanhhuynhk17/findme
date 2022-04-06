@@ -5,7 +5,8 @@ from flask import request
 
 @app.route("/", methods=["GET"])
 def index():
-    return render_template('public/index.html', ip=request.environ['REMOTE_ADDR'])
+    ip2 = request.environ.get('HTTP_X_REAL_IP', request.remote_addr)
+    return render_template('public/index.html', ip=request.environ['REMOTE_ADDR'], ip2=ip2)
 
 @app.route("/card/<name>", methods=['GET'])
 def profile(name=None):
