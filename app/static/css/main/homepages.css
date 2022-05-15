@@ -2474,7 +2474,10 @@ select:-webkit-autofill:focus {
   position: relative; }
 
 #header {
-  background: url(../../images/background.jpg) repeat scroll center center/cover;
+  background: url(../../images/waifu03.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   background-attachment: fixed;
   margin-bottom: 0;
   width: 100%;
