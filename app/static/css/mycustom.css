@@ -7,8 +7,7 @@
 
 /* start align header */
 #header .head-info .header-content .location{
-  top: 25%;
-  margin-top: 20px;
+  top: 40%;
 }
 
 #header .head-info .header-content .location .listlocaion li{
@@ -21,6 +20,7 @@
     margin-bottom: 0;
 }
 .section-title h2{
+  margin-top: revert;
     color: white;
 }
 
@@ -31,7 +31,7 @@
 
 .container{
   height: -webkit-fill-available;
-  padding-top: 1rem;
+  padding-top: initial;
 }
 #header .head-info{
   height: -webkit-fill-available;
@@ -70,6 +70,7 @@
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  width: -webkit-fill-available;
 }
 
 .button-55:hover {
