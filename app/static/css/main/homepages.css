@@ -2479,6 +2479,7 @@ select:-webkit-autofill:focus {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  object-fit: cover;
   margin-bottom: 0;
   width: 100%;
   height: 100vh;
