@@ -88,3 +88,7 @@
   display: inline;
 }
 /* end custom footer */
+
+img{
+  object-fit: cover;
+}
